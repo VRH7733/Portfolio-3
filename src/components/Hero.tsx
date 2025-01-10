@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-
+import pic from '../assets/images/profile_pic.png'
 interface HeroProps {
   scrollToSection: (sectionId: string) => void
 }
@@ -15,7 +15,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
         >
           <div className="w-48 h-48 rounded-full overflow-hidden bg-primary-100 dark:bg-primary-800 flex items-center justify-center ">
             <img
-              src="/profile_pic.png"
+              src={pic}
               alt="V Raghavendra"
               className="rounded-full object-cover"
             />

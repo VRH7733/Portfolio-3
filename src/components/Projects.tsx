@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
-
+import e_commerce from '../assets/images/full_stack.png'
+import jobs from '../assets/images/jobs.png'
 interface Project {
   title: string;
   description: string;
@@ -12,14 +13,14 @@ const projects: Project[] = [
   {
     title: 'E-commerce Platform',
     description: 'Full-stack e-commerce platform using MERN stack with user authentication and admin panel.',
-    image: '/full_stack.png',
+    image: e_commerce,
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
     github: 'https://github.com/VRH7733/full_stack_e-commerce'
   },
   {
     title: 'Jobs Listing Platform',
     description: 'Dynamic job listing platform for streamlined job searching and recruitment.',
-    image: '/jobs.png',
+    image: jobs,
     tags: ['React', 'Tailwind CSS', 'JSON-Server', 'Vite'],
     github: 'https://github.com/VRH7733/jobs'
   }
