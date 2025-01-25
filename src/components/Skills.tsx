@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const skills: string[] = [
   'JavaScript', 'TypeScript', 'C++', 'Python' , 'Java' , 'React.js', 'Node.js', 'Express.js', 
-  'MongoDB', 'MySQL', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap CSS', 
+  'MongoDB', 'MySQL', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap CSS',
   'Git', 'GitHub', 'RESTful APIs', 'Data Structures', 'Algorithms'
 ]
 
